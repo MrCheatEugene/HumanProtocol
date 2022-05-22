@@ -60,13 +60,15 @@ Close connection
 Settings are stored in ```./settings.json``` as JSON object.
 
 Example settings file: 
-```{
+```
+{
 "port":8080, 
 "guestAccess":0,
 "users":["emil"], 
 "passwords":["6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"],
 "authAttempts":"3"
-}```
+}
+```
 
 ```port``` - Integer from 0 to 65535, TCP socket port.
 
