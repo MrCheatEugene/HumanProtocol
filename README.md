@@ -69,10 +69,11 @@ Example settings file:
 }```
 
 Example user data for logging in:
-```
+
 Username: "emil"
+
 Password: "1"
-```
+
 
 ```port``` - Integer from 0 to 65535, TCP socket port.
 
