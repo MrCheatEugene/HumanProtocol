@@ -86,5 +86,23 @@ Password: "1"
 
 ```authAttempts``` - Integer, maximum authentication failures. Used both for entering username and for entering password.
 
+# Simple usage
 
+```
+telnet localhost 8080
 
+Hello
+>Hello
+Who are you?
+>emil\r\n
+Okay, now, what's your passphrase?
+>1\r\n
+Success!
+>Bye\r\n
+See you later!
+```
+*\r\n* is a newline&carriage return thing that adds to the string in Windows, if you are using Linux - Make sure to enable carriage return in your terminal!
+
+Or, if you are using somewhat telnet library - make sure to write *\r\n*,not *\n*.
+
+If you will write *\n*, then the input will never stop.
