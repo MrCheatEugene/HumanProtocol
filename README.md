@@ -1,6 +1,11 @@
 # HumanProtocol
 HumanProtocol is a simple protocol,written in JS, that can be used for building other protocols! All comands are human-readable in HumanProtocol.
 
+Requires js-sha256 package. 
+You can download it here: https://www.npmjs.com/package/js-sha256
+
+or install it using ```npm i js-sha256```
+
 # Why?
 I don't know, I just wanted to make my own protocol, so "*here it is*"
 Also, you can use it as base for writting your own protocol.
