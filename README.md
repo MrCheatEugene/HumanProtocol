@@ -69,6 +69,12 @@ Example settings file:
 "authAttempts":"3"
 }
 ```
+Example user data for logging in:
+```
+Username: "emil",
+Password: "1"
+
+```
 
 ```port``` - Integer from 0 to 65535, TCP socket port.
 
@@ -79,3 +85,6 @@ Example settings file:
 ```passwords``` - List with user's passwords(strings). Index of user is index of a password in the list. Every password is a SHA256 hash
 
 ```authAttempts``` - Integer, maximum authentication failures. Used both for entering username and for entering password.
+
+
+
