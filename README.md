@@ -2,7 +2,8 @@
 HumanProtocol is a simple protocol,written in JS, that can be used for building other protocols! All comands are human-readable in HumanProtocol.
 
 # Why?
-You can use it as base for writting your own protocol.
+I don't know, I just wanted to make my own protocol, so "*here it is*"
+Also, you can use it as base for writting your own protocol.
 
 # List of commands
 
