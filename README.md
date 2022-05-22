@@ -111,3 +111,5 @@ See you later!
 Or, if you are using somewhat telnet library - make sure to write *\r\n*,not *\n*.
 
 If you will write *\n*, then the input will never stop.
+
+Also, the resposes from the server contain *\n*, not \r\n. Please also note that, if you are planning to use it!
