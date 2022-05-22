@@ -68,13 +68,6 @@ Example settings file:
 "authAttempts":"3"
 }```
 
-Example user data for logging in:
-
-Username: "emil"
-
-Password: "1"
-
-
 ```port``` - Integer from 0 to 65535, TCP socket port.
 
 ```guestAccess``` - Integer, if set to 0 - password is required, else - "passwords" list is not nessecary, and everyone in "users" list can log in without password.
